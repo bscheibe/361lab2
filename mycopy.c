@@ -1,4 +1,4 @@
-#include "mycp.h"
+#include "mycopy.h"
 extern int errno;
 #define BUFFERSIZE 4096
 

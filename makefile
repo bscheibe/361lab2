@@ -1,10 +1,10 @@
-mycp: copy
+mycp: mycopy
 
-copy: mycp.o
-  gcc -o mycp mycp.o
+mycopy: mycopy.o
+	gcc -o mycp mycopy.o
 
-mycp.o: mycp.c mycp.h
-	gcc -Wall -c mycp.c
+mycopy.o: mycopy.c mycopy.h
+	gcc -Wall -c mycopy.c
 
 clean:
 	rm *o mycp
