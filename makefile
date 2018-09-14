@@ -1,4 +1,6 @@
-mycp: mycp.o
+mycp: copy
+
+copy: mycp.o
   gcc -o mycp mycp.o
 
 mycp.o: mycp.c mycp.h
